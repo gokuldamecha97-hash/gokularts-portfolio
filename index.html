@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GokulArts | Thumbnail Designer</title>
+  <meta name="description" content="Professional YouTube Thumbnail Designer | High CTR Thumbnails">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 8%;
+      background: #111;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #ff3d00;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #ff3d00;
+    }
+
+    .hero {
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #111, #1d0b05);
+    }
+
+    .badge {
+      color: #ffb000;
+      border: 1px solid #ffb000;
+      padding: 8px 16px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 8vw, 80px);
+      line-height: 1.1;
+      max-width: 900px;
+    }
+
+    .hero h1 span {
+      color: #ff3d00;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 25px 0;
+      color: #bbb;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff3d00;
+      color: white;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #aaa;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #151515;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #252525;
+    }
+
+    .card h3 {
+      color: #ffb000;
+      margin-bottom: 10px;
+    }
+
+    .portfolio {
+      background: #101010;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 18px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      transition: 0.3s;
+      border: 1px solid #333;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .about p {
+      color: #bbb;
+      margin-top: 20px;
+      font-size: 17px;
+    }
+
+    .contact {
+      text-align: center;
+      background: linear-gradient(135deg, #1d0b05, #111);
+    }
+
+    .contact h2 {
+      font-size: 40px;
+    }
+
+    .contact p {
+      color: #bbb;
+      margin: 15px 0 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #777;
+      background: #080808;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 15px 5%;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 12px;
+      }
+
+      section {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">Gokul<span>Arts</span></div>
+    <div>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Hire Me</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="badge">🔥 PROFESSIONAL THUMBNAIL DESIGNER</div>
+
+    <h1>Want <span>High CTR</span><br>YouTube Thumbnails?</h1>
+
+    <p>
+      I create eye-catching and professional thumbnails designed
+      to attract attention, increase clicks and help your channel grow.
+    </p>
+
+    <a href="#portfolio" class="btn">View My Work ↓</a>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">🔥 What I Offer</h2>
+    <p class="section-subtitle">Professional designs made to get more clicks.</p>
+
+    <div class="services">
+      <div class="card">
+        <h3>🎯 High CTR</h3>
+        <p>YouTube thumbnails designed to grab attention instantly.</p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Eye-Catching</h3>
+        <p>Bold, clean and engaging thumbnail designs.</p>
+      </div>
+
+      <div class="card">
+        <h3>⚡ Fast Delivery</h3>
+        <p>Quality work delivered quickly for your content.</p>
+      </div>
+
+      <div class="card">
+        <h3>🔄 Revisions</h3>
+        <p>I work with you to make the design look right.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="section-title">🖼️ My Portfolio</h2>
+    <p class="section-subtitle">Some of my thumbnail designs</p>
+
+    <div class="gallery">
+      <img src="thumbnail1.png" alt="Thumbnail Design 1">
+      <img src="thumbnail2.png" alt="Thumbnail Design 2">
+      <img src="thumbnail3.png" alt="Thumbnail Design 3">
+      <img src="thumbnail4.png" alt="Thumbnail Design 4">
+      <img src="thumbnail5.png" alt="Thumbnail Design 5">
+      <img src="thumbnail6.png" alt="Thumbnail Design 6">
+      <img src="thumbnail7.png" alt="Thumbnail Design 7">
+      <img src="thumbnail8.png" alt="Thumbnail Design 8">
+      <img src="thumbnail9.png" alt="Thumbnail Design 9">
+    </div>
+  </section>
+
+  <section>
+    <div class="about">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I'm Gokul, a thumbnail designer focused on creating powerful
+        visuals for YouTube creators. My goal is simple: create thumbnails
+        that make people stop scrolling and click.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>🚀 Let's Work Together!</h2>
+    <p>Need a thumbnail that gets more attention and clicks?</p>
+
+    <a class="btn" href="https://www.fiverr.com/gokularts">
+      Hire Me on Fiverr
+    </a>
+  </section>
+
+  <footer>
+    © 2026 GokulArts | Thumbnail Designer
+  </footer>
+
+</body>
+</html>
