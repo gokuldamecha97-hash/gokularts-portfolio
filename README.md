@@ -24,13 +24,12 @@ This website showcases my thumbnail designs across different categories, includi
 - Animals & Facts
 - Business & Motivation
 
-## 💼 Hire Me on Fiverr
+## 💼 Hire Me on WhatsApp 
 
-**Fiverr Username:** [@gokularts](https://www.fiverr.com/gokularts)
-
-📩 **Let's create thumbnails that get more clicks and views!**
-
----
+<a href="https://wa.me/919009864882?text=Hi%20Gokul%2C%20I%20need%20a%20thumbnail%20for%20my%20video." 
+   target="_blank">
+   Hire Me on WhatsApp
+</a>
 
 ### 🌐 Website
 
